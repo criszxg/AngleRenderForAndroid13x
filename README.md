@@ -1,20 +1,63 @@
-# AnglePortOneUI
+# 🎮 AnglePortOneUI - ANGLE Renderer para Android 13 (One UI)
 
-Módulo Magisk para portar ANGLE desde una GSI a One UI con Android 13. Incluye librerías, permisos y la app de preferencias para activación por app.
+Módulo **Magisk** que porta y activa **ANGLE** (Almost Native Graphics Layer Engine) extraído de una **GSI con Android 14**, adaptado para **One UI 5.1 en Android 13** con soporte de **activación por app**, sin necesidad de usarlo como render global.
 
-##  Estructura
-- `system/lib*/libEGL_angle.so`
-- `priv-app/ANGLE/ANGLE.apk`
-- `permissions/android.software.angle.xml`
+> ⚠️ Ideal para dispositivos con **GPU Mali-G52 MC2** y soporte de **Vulkan 1.1**.
 
-## Requisitos
-- Magisk instalado
-- Soporte Vulkan 1.1
-- One UI 5.1 (opcional) con Android 13 (semiobligatorio)
+---
 
-##  Activación
-1. Instala el módulo.
-2. Reiniciá.
-3. Activá ANGLE por app desde la app de preferencias en opciones de desarrollador.
+## 🚀 Características
 
-**⚠️ No activar como render global si no sabés, puede causar bootloop.**
+- Porta las librerías ANGLE necesarias (`libEGL_angle.so`, etc).
+- Añade la app oficial de **preferencias ANGLE** (com.android.angle).
+- Incluye permisos y configuración para activarlo por aplicación.
+- Compatible con **Samsung One UI 5.1** (probado en Galaxy A22 4G).
+- solo Magisk.
+
+---
+
+## 🛠️ Requisitos
+
+- Android 13 con One UI 5.1.
+- Magisk instalado (cualquier versión reciente).
+- Soporte de Vulkan 1.1 (ej: Mali-G52 con drivers 26.0.0 o superior).
+- App **ANGLE Preferences** instalada desde el módulo.
+
+---
+
+## 📦 Instalación
+
+1. Descargá el ZIP del módulo desde la [sección Releases](https://github.com/criszxg/AngleRenderForAndroid13x/releases) (o desde el repo).
+2. Abrí la app Magisk > Módulos > Instalar desde almacenamiento.
+3. Seleccioná el ZIP `AnglePortOneUI.zip`.
+4. Reiniciá el dispositivo.
+5. Entrá a la app **"Preferencias de ANGLE"** y activalo por app manualmente en opciones de desarrolladores (recomendado).
+
+---
+
+## ⚠️ Advertencias
+
+- **No activarlo como render global**, puede causar bootloop o errores visuales.
+- No compatible con todas las GPUs ni versiones de Android.
+- Algunas apps no usan ANGLE aunque esté forzado (depende de implementación).
+
+---
+
+## 👨‍💻 Autor
+
+Port hecho por **@criszxg**  
+Guía y soporte por **ChatGPT (OpenAI)** 😎
+
+---
+
+## 🧪 Probado en:
+
+- 📱 Samsung Galaxy A22 4G (Mali-G52 MC2)
+- ⚙️ One UI 5.1 - Android 13
+- ✅ PojavLauncher (Zink backend) con mejor rendimiento y "soporte"
+
+---
+
+## 📘 Licencia
+
+Este proyecto se comparte de forma libre para fines educativos y de prueba. Usalo bajo tu propio riesgo.
