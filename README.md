@@ -1,4 +1,4 @@
-# 🎮 AnglePortOneUI - ANGLE Renderer para Android 13 (One UI)
+# 🎮 AnglePortForOneUIAndMore - ANGLE Renderer para Android 13+ 
 
 Módulo **Magisk** que porta y activa **ANGLE** (Almost Native Graphics Layer Engine) extraído de una **GSI con Android 14**, adaptado para **One UI 5.1 en Android 13** con soporte de **activación por app**, sin necesidad de usarlo como render global.
 
@@ -18,7 +18,7 @@ Módulo **Magisk** que porta y activa **ANGLE** (Almost Native Graphics Layer En
 
 ## 🛠️ Requisitos
 
-- Android 12+.
+- Android 13+.
 - Magisk instalado (cualquier versión reciente).
 - Soporte de Vulkan 1.1 (ej: Mali-G52 con drivers 26.0.0 o superior).
 - App **ANGLE Preferences** instalada desde el módulo.
