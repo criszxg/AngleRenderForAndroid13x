@@ -18,7 +18,7 @@ Módulo **Magisk** que porta y activa **ANGLE** (Almost Native Graphics Layer En
 
 ## 🛠️ Requisitos
 
-- Android 13 con One UI 5.1.
+- Android 12+.
 - Magisk instalado (cualquier versión reciente).
 - Soporte de Vulkan 1.1 (ej: Mali-G52 con drivers 26.0.0 o superior).
 - App **ANGLE Preferences** instalada desde el módulo.
@@ -27,7 +27,7 @@ Módulo **Magisk** que porta y activa **ANGLE** (Almost Native Graphics Layer En
 
 ## 📦 Instalación
 
-1. Descargá el ZIP del módulo desde la [sección Releases](https://github.com/criszxg/AngleRenderForAndroid13x/releases) (o desde el repo).
+1. Descargá el ZIP del módulo desde la [sección Releases]
 2. Abrí la app Magisk > Módulos > Instalar desde almacenamiento.
 3. Seleccioná el ZIP `AnglePortOneUI.zip`.
 4. Reiniciá el dispositivo.
@@ -54,7 +54,7 @@ Guía y soporte por **ChatGPT (OpenAI)** 😎
 
 - 📱 Samsung Galaxy A22 4G (Mali-G52 MC2)
 - ⚙️ One UI 5.1 - Android 13
-- ✅ PojavLauncher (Zink backend) con mejor rendimiento y "soporte"
+- ✅ PojavLauncher (Zink backend) con mejor rendimiento y "soporte" (solo angle render)
 
 ---
 
